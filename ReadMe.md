@@ -16,7 +16,9 @@ This project is based on the Spring Boot project and uses these packages:
 
 ### Installation
 
-- `git clone https://github.com/furkankayam/mqtt-broker-allow-anonymous.git`
+```bash
+git clone https://github.com/furkankayam/mqtt-broker-allow-anonymous.git
+```
 
 <br>
 
