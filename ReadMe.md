@@ -6,7 +6,7 @@
 
 <br>
 
-This project is based on the Spring Boot project and uses these packages:
+Uses these packages:
 
 [![Eclipse Mosquitto](https://img.shields.io/badge/eclipse%20mosquitto-latest-000?style=for-the-badge&logo=eclipsemosquitto&logoColor=white&color=3C5280)](https://www.java.com/en/)
 
