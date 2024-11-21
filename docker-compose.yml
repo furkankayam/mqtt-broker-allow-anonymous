@@ -1,10 +1,9 @@
-version: '3.7'
-
+# Services
 services:
 
-  #Mosquitto
+  # Mosquitto
   mqtt:
-    image: eclipse-mosquitto
+    image: eclipse-mosquitto:2.0.18
     container_name: mqtt
     restart: always
     ports:
@@ -12,8 +11,14 @@ services:
       - "9001:9001"
     volumes:
       - ./mqtt/config:/mosquitto/config
-      - ./mqtt/data:/mosquitto/data
-      - ./mqtt/log:/mosquitto/log
+    networks:
+      - my-network
 
+# Volumes
 volumes:
   mqtt:
+
+# Networks
+networks:
+  my-network:
+    driver: bridge
