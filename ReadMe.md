@@ -8,7 +8,7 @@
 
 Uses these packages:
 
-[![Eclipse Mosquitto](https://img.shields.io/badge/eclipse%20mosquitto-latest-000?style=for-the-badge&logo=eclipsemosquitto&logoColor=white&color=3C5280)](https://www.java.com/en/)
+[![Eclipse Mosquitto](https://img.shields.io/badge/eclipse%20mosquitto-2.0.18-000?style=for-the-badge&logo=eclipsemosquitto&logoColor=white&color=3C5280)](https://www.java.com/en/)
 
 [![Docker Compsose](https://img.shields.io/badge/Docker%20Compose-3.7-000?style=for-the-badge&logo=Docker&logoColor=white&color=2496ED)](https://www.java.com/en/)
 
